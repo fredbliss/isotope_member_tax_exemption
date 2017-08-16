@@ -1,0 +1,45 @@
+{
+  "name": "intelligentspark/isotope_member_tax_exemption",
+  "description": "Checks for a field \"iso_tax_exempt\" associated with a member and omits tax if set to '1'",
+  "keywords": [
+    "contao",
+    "isotope",
+    "tax",
+    "exempt",
+    "members"
+  ],
+  "type": "contao-module",
+  "license": "LGPL-3.0+",
+  "require": {
+    "php": ">=5.3.2",
+    "contao/core": ">=3.3.0,<4.0.0-dev",
+    "contao-community-alliance/composer-plugin": "*",
+    "terminal42/contao-namespace-class-loader":"~1.0",
+    "isotope/isotope-core": "~2.3"
+  },
+  "authors": [
+    {
+      "name": "intelligentspark",
+      "email": "fred.bliss@intelligentspark.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "IntelligentSpark\\": [
+        "system/modules/isotope_member_tax_exemption/library/"
+      ]
+    }
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "": "system/modules/isotope_member_tax_exemption"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "preferred-install": "dist"
+  }
+}
