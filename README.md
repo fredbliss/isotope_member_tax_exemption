@@ -1,1 +1,1 @@
-# isotope_checkout_step_delivery_date
+# isotope_member_tax_exemption
