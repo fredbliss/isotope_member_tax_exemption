@@ -2,11 +2,20 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/cs02/xliff-core-1.2-strict.xsd">
     <file datatype="plaintext" original="system/modules/isotope_member_tax_exemption/languages/en/tl_member_tax_exemption.xlf" source-language="en">
         <body>
+            <trans-unit id="tl_member.misc_legend">
+                <source>Miscellaneous Settings</source>
+            </trans-unit>
             <trans-unit id="tl_member.iso_tax_exempt.0">
                 <source>Tax Exempt</source>
             </trans-unit>
             <trans-unit id="tl_member.iso_tax_exempt.1">
                 <source>Designate a member as tax-exempt</source>
+            </trans-unit>
+            <trans-unit id="tl_member.iso_free_shipping.0">
+                <source>Free Shipping</source>
+            </trans-unit>
+            <trans-unit id="tl_member.iso_free_shipping.1">
+                <source>Designate a member as having free shipping</source>
             </trans-unit>
         </body>
     </file>

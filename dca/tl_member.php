@@ -10,11 +10,19 @@
 /**
  * Table tl_iso_payment_modules
  */
-$GLOBALS['TL_DCA']['tl_member']['palettes']['default'] .= ';{tax_legend},iso_tax_exempt';
+$GLOBALS['TL_DCA']['tl_member']['palettes']['default'] .= ';{misc_legend},iso_tax_exempt,iso_free_shipping';
 
 $GLOBALS['TL_DCA']['tl_member']['fields']['iso_tax_exempt'] = array
 (
     'label'		=> &$GLOBALS['TL_LANG']['tl_member']['iso_tax_exempt'],
+    'inputType'	=> 'checkbox',
+    'eval'		=> array(),
+    'sql'       => "char(1) NOT NULL default ''"
+);
+
+$GLOBALS['TL_DCA']['tl_member']['fields']['iso_free_shipping'] = array
+(
+    'label'		=> &$GLOBALS['TL_LANG']['tl_member']['iso_free_shipping'],
     'inputType'	=> 'checkbox',
     'eval'		=> array(),
     'sql'       => "char(1) NOT NULL default ''"
